@@ -1,14 +1,10 @@
 {
-  "name": "xNFT Quickstart",
   "version": "0.0.1",
-  "storage": "",
-  "description": "React Native Example",
-  "website": "http://wao.gg",
-  "kind": "app",
-  "icon": {
-    "md": "./assets/icon.png"
-  },
-  "contact": "",
+  "storage": "aws",
+  "kind": "collectible",
+  "collectibleMint": "E3SLajCmGkTFwTQ4eSxtvCeWSN9jWAKa7C5nVNqBajFf",
+  "tag": "nfts",
+  "contact":  "github.com/mjavala",
   "screenshots": [
     "./assets/screenShot.png"
   ],
