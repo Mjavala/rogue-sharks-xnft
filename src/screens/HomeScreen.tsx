@@ -4,11 +4,10 @@ import { StyleSheet, Dimensions } from "react-native";
 import { Screen } from "../components/Screen";
 
 export function HomeScreen() {
-  console.log(Dimensions.get('window').width, Dimensions.get('window').height);
   return (
     <Screen>
       <Video
-        source={require("../assets/rebirth.mov")}
+        source={require("../assets/champions-belt.mov")}
         rate={1.0}
         volume={1.0}
         isMuted={false}
